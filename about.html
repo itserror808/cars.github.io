@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/about.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Vollkorn+SC:wght@400;600;700;900&display=swap" rel="stylesheet">
+
+        <title>About</title>
+    </head>
+<body>
+
+    <header class="header">
+        <a href="home.html" class="logo">AutoCar.</a>
+        <nav class="navbar">
+            <a href="home.html" style="--i:1;" >Home</a>
+            <a href="about.html" style="--i:2;"class="active">About</a>
+            <a href="#" style="--i:3;">Review</a>
+            <a href="#" style="--i:4;">Featured</a>
+            <a href="#" style="--i:5;">Contact</a>
+        </nav>
+        <div class="social-media">
+            <a href="#twitter"   style="--i:1;"><i class='bx bxl-twitter'></i></a>
+            <a href="#facebook"  style="--i:2;"><i class='bx bxl-facebook' ></i></a>
+            <a href="#instagram" style="--i:3;"><i class='bx bxl-instagram-alt' ></i></a> 
+        </div>
+    </header>
+
+    <section class="about" id="top">
+        <div class="about-img">
+            <div class="rhombus">
+                <img src="images/nissan-gtr.png" alt="nissan-gtr">
+            </div>
+        </div>
+
+        <div class="about-content">
+            <h1>About</h1>
+            <h3>AutoCar.</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim ratione unde laudantium assumenda et labore tenetur vitae officiis aperiam cum.</p>
+            <a href="#brands" class="btn">More about</a>
+        </div>
+        <div class="rhombus2"></div>
+    </section>
+
+
+    <section class="about" id="brands">
+        <div class="about-content">
+            <h1>Nissan</h1>
+            <h3>GTR</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit aperiam dignissimos ullam est eos ea, aliquid molestiae eveniet officiis quis quaerat soluta, voluptate, adipisci earum vel iure ab itaque nobis!</p>
+            <a href="#" class="btn">Check</a>
+        </div>
+        <div class="about-img-2">
+            <div class="rhombus">
+                <img src="images/gtr.png" alt="gtr">
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="about-img-2">
+            <div class="rhombus">
+                <img style="left:-20px;top:20px;" src="images/mitsubishi.png" alt="mitsubishi">
+            </div>
+        </div>
+
+        <div class="about-content">
+            <h1>Mitsubishi</h1>
+            <h3></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit aperiam dignissimos ullam est eos ea, aliquid molestiae eveniet officiis quis quaerat soluta, voluptate, adipisci earum vel iure ab itaque nobis!</p>
+            <a href="#" class="btn">Check</a>
+        </div>
+        
+    </section>
+
+
+    <section class="about" id="brands">
+        <div class="about-content">
+            <h1>Toyota</h1>
+            <h3></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit aperiam dignissimos ullam est eos ea, aliquid molestiae eveniet officiis quis quaerat soluta, voluptate, adipisci earum vel iure ab itaque nobis!</p>
+            <a href="#" class="btn">Check</a>
+        </div>
+        <div class="about-img-2">
+            <div class="rhombus">
+                <img style="left: 20px ; top: 40px ;" src="images/toyota.png" alt="tpyota">
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>&copy; <span id="current-year"></span> MEFTAH Ahmed Reda. All Rights Reserved"</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#top"><i class='bx bx-chevrons-up'></i></a>
+        </div>
+    
+        <script>
+            var currentYear = new Date().getFullYear();
+            document.getElementById("current-year").textContent = currentYear;
+        </script>
+    </footer>
+    
+</body>
+</html>
